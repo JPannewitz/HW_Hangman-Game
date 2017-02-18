@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	background: #f9ebeb;
+}
+
+.myHeader {
+	padding: 0;
+	border-bottom: 15px solid #0282f9;
+}
+
+.myName {
+	padding: 0;
+}
+
+#word-blank {
+	color: #8b2a29;
+}
+
+.fullBody {
+	margin-top: 20px;
+}
+
+.logo {
+	max-height: 100px;
+	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #0282f9;
+	background: #1c2f2f;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Bahiana', cursive;
+	font-size: 50px;
+}
+
+footer {
+	padding: 30px;
+  	clear: both;
+  	color: #fff;
+  	color: #ccc;
+  	font-size: 12px;
+  	text-align: center;
+  	background: #1c2f2f;
+  	border-top: 5px solid #0282f9;
+}

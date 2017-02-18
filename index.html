@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Julia's Hangman</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div class="container-fluid myHeader">
+	
+	<div class="myName col-xs-12">
+		<h1>DC Superheroes Hangman</h1>
+	</div>
+
+	
+</div>
+
+
+<div class="container fullBody">
+
+	<div class="row">
+		<div class="col-xs-3"></div>
+		<div class="panel panel-default col-xs-6">
+			<div class="row">
+				<div class="col-xs-4"></div>
+				<div class="col-xs-4">
+					<img class="img-responsive logo" src="assets/images/dclogo.jpg" alt="DC logo">
+				</div>
+				<div class="col-xs-4"></div>
+			</div>
+			<div class="row">
+				
+				<div class="col-xs-12 col-sm-9 col-md-12">
+					<p>Press any key to get started!</p>
+					<p>Guesses left: <span id="guesses-left"></span></p>
+					<h3 id="word-blank"></h3>
+					<p>Wrong guesses: <span id="wrong-guesses"></span></p>
+					<p>Wins: <span id="win-counter"></span></p>
+					<p>Losses: <span id="loss-counter"></span></p>
+
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-3"></div>
+	
+	</div>
+
+</div>
+
+
+<footer class="footer navbar-fixed-bottom">
+	<div class="container">
+		<span>&copy Copyright 2016 Julia Pannewitz</span>
+	</div>
+</footer>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
